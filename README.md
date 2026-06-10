@@ -1,9 +1,8 @@
-[README.md](https://github.com/user-attachments/files/28815916/README.md)
 # 速攻マッチ — JLPT Speed Match
 
 A fast-paced Japanese vocabulary quiz game covering JLPT N5–N3. Built as a single self-contained HTML file — no framework installs, no server, no account needed. Works offline once loaded.
 
-**[▶ Play it here](https://yourusername.github.io/your-repo-name)**
+**[▶ Play it here](https://jacobcapper.github.io/n5-3--SPEED-MATCH/)**
 
 ---
 
