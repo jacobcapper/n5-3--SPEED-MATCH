@@ -53,23 +53,6 @@ Note: JLPT does not publish official vocabulary lists. Coverage is based on wide
 - Time Attack: −5 seconds per wrong answer
 - Endless: 1 strike per wrong answer or timeout (3 strikes = game over)
 
----
-
-## Deploying to GitHub Pages
-
-1. Create a public repository on GitHub
-2. Upload `index.html` to the root of the `main` branch
-3. Go to **Settings → Pages → Build and deployment**
-4. Set Source to **Deploy from a branch**, select `main`, folder `/root`, and click Save
-5. Your game will be live at `https://yourusername.github.io/your-repo-name` within a minute or two
-
-To update the game, just replace `index.html` and push — GitHub Pages redeploys automatically.
-
-### Adding to your phone home screen
-
-Once deployed, open the URL in Chrome on Android (or Safari on iOS), tap the share/menu button, and select **Add to Home Screen**. The game is configured with the necessary mobile meta tags to launch fullscreen like a native app.
-
----
 
 ## Building from Source
 
