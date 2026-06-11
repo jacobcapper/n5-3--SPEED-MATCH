@@ -2348,7 +2348,16 @@ export default function SpeedMatch() {
 
   const setupPool = useMemo(() => buildPool(level, pos, mode), [level, pos, mode]);
   const canStart = setupPool.length >= 8;
-  const setupBest = phase === "setup" ? loadBest(bestKey(style, mode, level, pos)) : 0;
+  // Best scores for every mode x style at the selected level/focus.
+  // phase is a dep so the board refreshes after a run saves a new best.
+  const boardRows = useMemo(() => {
+    if (phase !== "setup") return [];
+    return MODES.map((m) => ({
+      mode: m,
+      scores: GAME_STYLES.map((s) => loadBest(bestKey(s.id, m.id, level, pos))),
+    }));
+  }, [phase, level, pos]);
+  const boardHasScores = boardRows.some((r) => r.scores.some((v) => v > 0));
 
   useEffect(() => {
     if (phase !== "results") return;
@@ -2557,6 +2566,18 @@ export default function SpeedMatch() {
   .pool { text-align:center; color:var(--muted); font-size:13px; margin-top:14px;
     font-family:system-ui,sans-serif; }
   .pool b { color:var(--gold); font-size:16px; }
+  @keyframes boardIn { 0%{opacity:0; transform:translateY(6px)} 100%{opacity:1; transform:translateY(0)} }
+  .sboard-wrap { margin-top:14px; background:var(--panel); border:1px solid var(--line); border-radius:12px;
+    padding:12px 12px 6px; animation:boardIn .25s ease-out; }
+  .sboard { width:100%; border-collapse:collapse; }
+  .sboard th { font-size:10px; color:var(--muted); letter-spacing:1.5px; font-family:system-ui,sans-serif;
+    font-weight:600; padding:2px 6px 6px; text-align:center; }
+  .sboard td { padding:8px 6px; text-align:center; border-top:1px solid rgba(42,47,77,.5); }
+  .sboard td.m { font-family:var(--jp); font-weight:700; font-size:13px; text-align:left; white-space:nowrap; }
+  .sboard td.v { color:var(--gold); font-size:15px; width:34%; }
+  .sboard td.v.none { color:var(--muted); }
+  .sboard td.v.sel { background:rgba(255,61,127,.12); box-shadow:inset 0 0 0 1px var(--pink); border-radius:8px; }
+  @media (prefers-reduced-motion: reduce) { .sboard-wrap { animation:none; } }
   .start { width:100%; margin-top:14px; padding:16px; font-family:inherit; font-size:20px; letter-spacing:3px;
     color:#0B0D17; background:linear-gradient(90deg,var(--pink),#FF7AA8); border:none; border-radius:12px;
     cursor:pointer; box-shadow:0 0 22px rgba(255,61,127,.5); }
@@ -2667,8 +2688,38 @@ export default function SpeedMatch() {
           </div>
 
           <div className="pool">Word pool for these settings: <b>{setupPool.length}</b></div>
-          {setupBest > 0 && (
-            <div className="pool" style={{ marginTop: 4 }}>Personal best: <b>{setupBest.toLocaleString()}</b></div>
+
+          {boardHasScores && (
+            <div className="sboard-wrap">
+              <div className="sm-label" style={{ margin: "0 0 8px" }}>
+                High scores — {LEVELS.find((l) => l.id === level).label} · {POS_OPTS.find((p) => p.id === pos).en}
+              </div>
+              <table className="sboard">
+                <thead>
+                  <tr>
+                    <th></th>
+                    {GAME_STYLES.map((s) => (
+                      <th key={s.id}>{s.id === "time" ? "TIME ATTACK" : "ENDLESS"}</th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody>
+                  {boardRows.map((r) => (
+                    <tr key={r.mode.id}>
+                      <td className="m">{r.mode.jp}</td>
+                      {r.scores.map((v, i) => {
+                        const sel = mode === r.mode.id && style === GAME_STYLES[i].id;
+                        return (
+                          <td key={GAME_STYLES[i].id} className={"v" + (sel ? " sel" : "") + (v > 0 ? "" : " none")}>
+                            {v > 0 ? v.toLocaleString() : "—"}
+                          </td>
+                        );
+                      })}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           )}
           <button className="start" disabled={!canStart} onClick={startGame}>
             {canStart ? "スタート" : "Pool too small"}
