@@ -21,6 +21,7 @@ A fast-paced Japanese vocabulary quiz game covering JLPT N5–N3. Built as a sin
 - **Level select** — N5, N4, N3, or all levels combined
 - **Missed words review** on the results screen with kanji, reading, and meaning
 - **Personal bests** saved in your browser per settings combination, with a NEW RECORD callout on the results screen
+- **High score board** on the setup screen — your bests for every question mode × game style at the selected level/focus, with the current selection highlighted
 - Live pool size counter on the setup screen so you know before you start
 - Arcade aesthetic: dark theme, pixel title font, WebAudio sound effects, animated combo counter
 
