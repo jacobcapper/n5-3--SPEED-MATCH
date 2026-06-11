@@ -1853,6 +1853,375 @@ const VOCAB = [
 ["", "だが","but, yet (formal)","x",3],
 ["", "さて","well now, by the way","x",3],
 ["一方","いっぽう","on the other hand","x",3],
+// ===== N3 — EXPANSION 2: people & professions =====
+["患者","かんじゃ","patient","n",3],
+["農家","のうか","farming family, farmer","n",3],
+["味方","みかた","ally, supporter","n",3],
+["年寄り","としより","old person, senior","n",3],
+["大臣","だいじん","government minister","n",3],
+["王","おう","king","n",3],
+["女王","じょおう","queen","n",3],
+["神","かみ","god, deity","n",3],
+["大工","だいく","carpenter","n",3],
+["独身","どくしん","single, unmarried","n",3],
+["人間","にんげん","human being","n",3],
+["恋人","こいびと","lover, sweetheart","n",3],
+["初心者","しょしんしゃ","beginner","n",3],
+["乗客","じょうきゃく","passenger","n",3],
+// ===== N3 — EXPANSION 2: body & health =====
+["肌","はだ","skin (complexion)","n",3],
+["肘","ひじ","elbow","n",3],
+["額","ひたい","forehead","n",3],
+["頬","ほお","cheek","n",3],
+["唇","くちびる","lips","n",3],
+["舌","した","tongue","n",3],
+["胃","い","stomach (organ)","n",3],
+["手首","てくび","wrist","n",3],
+["血液","けつえき","blood (medical term)","n",3],
+["体温","たいおん","body temperature","n",3],
+["身長","しんちょう","height (of a person)","n",3],
+["虫歯","むしば","tooth decay, cavity","n",3],
+["睡眠","すいみん","sleep (formal)","n",3],
+["疲れ","つかれ","fatigue, tiredness","n",3],
+["寝不足","ねぶそく","lack of sleep","n",3],
+["昼寝","ひるね","nap","n",3],
+["診察","しんさつ","medical examination","n",3],
+// ===== N3 — EXPANSION 2: nature & weather =====
+["丘","おか","hill","n",3],
+["谷","たに","valley","n",3],
+["岩","いわ","rock, boulder","n",3],
+["波","なみ","wave","n",3],
+["海岸","かいがん","coast, seashore","n",3],
+["土","つち","soil, earth","n",3],
+["煙","けむり","smoke","n",3],
+["氷","こおり","ice","n",3],
+["虹","にじ","rainbow","n",3],
+["雷","かみなり","thunder, lightning","n",3],
+["嵐","あらし","storm","n",3],
+["霧","きり","fog, mist","n",3],
+["津波","つなみ","tsunami","n",3],
+["洪水","こうずい","flood","n",3],
+["気候","きこう","climate","n",3],
+["天然","てんねん","natural (not artificial)","n",3],
+["影","かげ","shadow, silhouette","n",3],
+["根","ね","root","n",3],
+["羊","ひつじ","sheep","n",3],
+["象","ぞう","elephant","n",3],
+["蛇","へび","snake","n",3],
+["羽","はね","feather, wing","n",3],
+// ===== N3 — EXPANSION 2: places, structures, positions =====
+["城","しろ","castle","n",3],
+["柱","はしら","pillar, post","n",3],
+["売店","ばいてん","kiosk, shop stand","n",3],
+["窓口","まどぐち","service counter, window","n",3],
+["美容院","びよういん","beauty salon","n",3],
+["床屋","とこや","barbershop","n",3],
+["役所","やくしょ","government office","n",3],
+["門","もん","gate","n",3],
+["畑","はたけ","field (for crops)","n",3],
+["都市","とし","city, urban area","n",3],
+["土地","とち","plot of land, soil","n",3],
+["頂上","ちょうじょう","summit, peak","n",3],
+["裏","うら","back side, reverse","n",3],
+["奥","おく","inner part, back","n",3],
+["隅","すみ","corner, nook","n",3],
+["端","はし","edge, end","n",3],
+["底","そこ","bottom","n",3],
+["内側","うちがわ","inside, interior side","n",3],
+["外側","そとがわ","outside, exterior side","n",3],
+["両側","りょうがわ","both sides","n",3],
+["真ん中","まんなか","middle, center","n",3],
+["辺り","あたり","vicinity, neighborhood","n",3],
+["斜め","ななめ","diagonal, slanted","n",3],
+["丸","まる","circle","n",3],
+["三角","さんかく","triangle","n",3],
+// ===== N3 — EXPANSION 2: food & everyday objects =====
+["豆","まめ","beans","n",3],
+["粉","こな","powder, flour","n",3],
+["油","あぶら","oil","n",3],
+["飯","めし","cooked rice, meal (casual)","n",3],
+["朝食","ちょうしょく","breakfast (formal)","n",3],
+["昼食","ちゅうしょく","lunch (formal)","n",3],
+["夕食","ゆうしょく","dinner (formal)","n",3],
+["食欲","しょくよく","appetite","n",3],
+["缶詰","かんづめ","canned food","n",3],
+["皮","かわ","skin, peel","n",3],
+["種","たね","seed","n",3],
+["蓋","ふた","lid, cap","n",3],
+["瓶","びん","bottle, jar","n",3],
+["缶","かん","can, tin","n",3],
+["袋","ふくろ","bag, sack","n",3],
+["紐","ひも","string, cord","n",3],
+["針","はり","needle","n",3],
+["布","ぬの","cloth","n",3],
+["毛布","もうふ","blanket","n",3],
+["枕","まくら","pillow","n",3],
+["旗","はた","flag","n",3],
+["紫","むらさき","purple","n",3],
+["灰色","はいいろ","gray","n",3],
+// ===== N3 — EXPANSION 2: time =====
+["本日","ほんじつ","today (formal)","n",3],
+["当時","とうじ","at that time, in those days","n",3],
+["今後","こんご","from now on","n",3],
+["最終","さいしゅう","last, final","n",3],
+["直前","ちょくぜん","just before","n",3],
+["直後","ちょくご","just after","n",3],
+["長期","ちょうき","long-term","n",3],
+["短期","たんき","short-term","n",3],
+["深夜","しんや","late at night","n",3],
+["夜明け","よあけ","dawn, daybreak","n",3],
+["年末","ねんまつ","end of the year","n",3],
+["週末","しゅうまつ","weekend","n",3],
+["前半","ぜんはん","first half","n",3],
+["後半","こうはん","second half","n",3],
+// ===== N3 — EXPANSION 2: abstract & activity nouns =====
+["安定","あんてい","stability","n",3],
+["移動","いどう","movement, transfer","n",3],
+["違反","いはん","violation","n",3],
+["印刷","いんさつ","printing","n",3],
+["引退","いんたい","retirement (from a career)","n",3],
+["応募","おうぼ","applying (for a job, contest)","n",3],
+["延長","えんちょう","extension, prolongation","n",3],
+["遠足","えんそく","school excursion, outing","n",3],
+["横断","おうだん","crossing (a road)","n",3],
+["開始","かいし","start, commencement","n",3],
+["回転","かいてん","rotation, revolving","n",3],
+["確認","かくにん","confirmation, check","n",3],
+["格好","かっこう","appearance, shape","n",3],
+["感動","かんどう","being deeply moved","n",3],
+["乾燥","かんそう","dryness, drying","n",3],
+["管理","かんり","management, administration","n",3],
+["記号","きごう","symbol, sign","n",3],
+["行儀","ぎょうぎ","manners, behavior","n",3],
+["見学","けんがく","study visit, tour","n",3],
+["建築","けんちく","architecture, construction","n",3],
+["結論","けつろん","conclusion","n",3],
+["現実","げんじつ","reality","n",3],
+["限界","げんかい","limit, bounds","n",3],
+["合計","ごうけい","sum, total","n",3],
+["誤解","ごかい","misunderstanding","n",3],
+["混雑","こんざつ","congestion, crowding","n",3],
+["撮影","さつえい","photography, filming","n",3],
+["参考","さんこう","reference, consultation","n",3],
+["自信","じしん","self-confidence","n",3],
+["事実","じじつ","fact","n",3],
+["姿勢","しせい","posture, stance","n",3],
+["自宅","じたく","one's own home","n",3],
+["実行","じっこう","execution, carrying out","n",3],
+["市場","いちば","market, marketplace","n",3],
+["自慢","じまん","boast, pride","n",3],
+["集中","しゅうちゅう","concentration","n",3],
+["周囲","しゅうい","surroundings, circumference","n",3],
+["住宅","じゅうたく","housing, residence","n",3],
+["受験","じゅけん","taking an entrance exam","n",3],
+["消費","しょうひ","consumption, spending","n",3],
+["賞","しょう","prize, award","n",3],
+["賞金","しょうきん","prize money","n",3],
+["承知","しょうち","consent, acknowledgment","n",3],
+["勝負","しょうぶ","match, contest","n",3],
+["勝利","しょうり","victory","n",3],
+["上達","じょうたつ","improvement (in skill)","n",3],
+["人生","じんせい","(one's) life","n",3],
+["進学","しんがく","advancing to higher education","n",3],
+["数","かず","number, quantity","n",3],
+["正解","せいかい","correct answer","n",3],
+["性別","せいべつ","sex, gender","n",3],
+["節約","せつやく","economizing, thrift","n",3],
+["全国","ぜんこく","the whole country","n",3],
+["操作","そうさ","operation (of a machine)","n",3],
+["速達","そくたつ","express mail","n",3],
+["尊敬","そんけい","respect, esteem","n",3],
+["体育","たいいく","physical education","n",3],
+["大会","たいかい","tournament, large meet","n",3],
+["体験","たいけん","personal experience","n",3],
+["大量","たいりょう","large quantity","n",3],
+["知恵","ちえ","wisdom","n",3],
+["長所","ちょうしょ","strong point, merit","n",3],
+["短所","たんしょ","weak point, shortcoming","n",3],
+["挑戦","ちょうせん","challenge, attempt","n",3],
+["追加","ついか","addition, appending","n",3],
+["続き","つづき","continuation, sequel","n",3],
+["手続き","てつづき","procedure, formalities","n",3],
+["点数","てんすう","score, marks","n",3],
+["登場","とうじょう","entrance, appearance (on stage)","n",3],
+["登録","とうろく","registration","n",3],
+["仲直り","なかなおり","reconciliation, making up","n",3],
+["中身","なかみ","contents, interior","n",3],
+["流れ","ながれ","flow, stream, current","n",3],
+["人数","にんずう","number of people","n",3],
+["乗り換え","のりかえ","transfer (between trains)","n",3],
+["残り","のこり","remainder, leftover","n",3],
+["発売","はつばい","release for sale","n",3],
+["発達","はったつ","development (of ability, weather)","n",3],
+["半額","はんがく","half price","n",3],
+["反省","はんせい","reflection, regret","n",3],
+["皮肉","ひにく","irony, sarcasm","n",3],
+["批判","ひはん","criticism","n",3],
+["表紙","ひょうし","book cover","n",3],
+["昼休み","ひるやすみ","lunch break","n",3],
+["不足","ふそく","shortage, lack","n",3],
+["双子","ふたご","twins","n",3],
+["文章","ぶんしょう","writing, piece of text","n",3],
+["別れ","わかれ","parting, farewell","n",3],
+["方面","ほうめん","direction, district","n",3],
+["保証","ほしょう","guarantee, warranty","n",3],
+["待ち合わせ","まちあわせ","appointment to meet","n",3],
+["真似","まね","imitation, mimicry","n",3],
+["満点","まんてん","perfect score","n",3],
+["見本","みほん","sample, model","n",3],
+["無視","むし","ignoring, disregard","n",3],
+["免許","めんきょ","license, permit","n",3],
+["申し込み","もうしこみ","application, registration","n",3],
+["模様","もよう","pattern, design","n",3],
+["様子","ようす","state, appearance, situation","n",3],
+["喜び","よろこび","joy, delight","n",3],
+["留学","りゅうがく","studying abroad","n",3],
+["旅","たび","journey, travel","n",3],
+["冷凍","れいとう","freezing (food)","n",3],
+["連続","れんぞく","continuation, series","n",3],
+["録画","ろくが","video recording","n",3],
+["話題","わだい","topic of conversation","n",3],
+["運","うん","luck, fortune","n",3],
+["永遠","えいえん","eternity","n",3],
+["順序","じゅんじょ","order, sequence","n",3],
+["世間","せけん","society, the public","n",3],
+["詩","し","poem","n",3],
+["芝居","しばい","play, drama","n",3],
+// ===== N3 — EXPANSION 2: katakana words =====
+["","アイデア","idea","n",3],
+["","イメージ","image, impression","n",3],
+["","インタビュー","interview (media)","n",3],
+["","エネルギー","energy","n",3],
+["","カロリー","calorie","n",3],
+["","キャンセル","cancellation","n",3],
+["","コミュニケーション","communication","n",3],
+["","サービス","service","n",3],
+["","サイン","signature, autograph","n",3],
+["","シーズン","season (sports, TV)","n",3],
+["","スケジュール","schedule","n",3],
+["","ストレス","stress","n",3],
+["","スピード","speed","n",3],
+["","セール","sale (discount event)","n",3],
+["","タイプ","type, kind","n",3],
+["","チーム","team","n",3],
+["","チャンス","chance, opportunity","n",3],
+["","チェック","check, checking","n",3],
+["","データ","data","n",3],
+["","デザイン","design","n",3],
+["","トレーニング","training, workout","n",3],
+["","バランス","balance","n",3],
+["","パーセント","percent","n",3],
+["","ヒント","hint, clue","n",3],
+["","プラン","plan","n",3],
+["","プロ","professional","n",3],
+["","ベテラン","veteran, expert","n",3],
+["","ボーナス","bonus","n",3],
+["","マスコミ","mass media","n",3],
+["","ミス","mistake, error","n",3],
+["","メッセージ","message","n",3],
+["","メンバー","member","n",3],
+["","ユーモア","humor","n",3],
+["","ライバル","rival","n",3],
+["","リーダー","leader","n",3],
+["","ルール","rule","n",3],
+["","レベル","level","n",3],
+["","レポート","report, paper","n",3],
+// ===== N3 — EXPANSION 2: verbs =====
+["当たる","あたる","to hit, to be correct (a guess)","v",3],
+["当てる","あてる","to hit (a target), to guess right","v",3],
+["痛む","いたむ","to hurt, to ache","v",3],
+["受け入れる","うけいれる","to accept, to take in","v",3],
+["撃つ","うつ","to shoot","v",3],
+["移す","うつす","to move (something), to transfer","v",3],
+["頷く","うなずく","to nod","v",3],
+["奪う","うばう","to snatch away, to rob","v",3],
+["売り切れる","うりきれる","to sell out","v",3],
+["追い越す","おいこす","to overtake, to pass","v",3],
+["終える","おえる","to finish (something)","v",3],
+["抑える","おさえる","to hold down, to suppress","v",3],
+["教わる","おそわる","to be taught, to learn from","v",3],
+["思いつく","おもいつく","to think of, to hit upon","v",3],
+["下ろす","おろす","to take down, to withdraw (money)","v",3],
+["飼う","かう","to keep (a pet), to raise","v",3],
+["着替える","きがえる","to change clothes","v",3],
+["苦しむ","くるしむ","to suffer","v",3],
+["敷く","しく","to spread out, to lay (bedding)","v",3],
+["近づく","ちかづく","to approach, to get near","v",3],
+["通り過ぎる","とおりすぎる","to pass by, to go past","v",3],
+["溶かす","とかす","to melt (something), to dissolve","v",3],
+["飛び込む","とびこむ","to jump in, to dive in","v",3],
+["取り出す","とりだす","to take out, to produce","v",3],
+["取れる","とれる","to come off, to be removed","v",3],
+["慰める","なぐさめる","to comfort, to console","v",3],
+["怠ける","なまける","to be lazy, to slack off","v",3],
+["縫う","ぬう","to sew","v",3],
+["剥く","むく","to peel","v",3],
+["話しかける","はなしかける","to speak to, to address","v",3],
+["引き受ける","ひきうける","to take on, to undertake","v",3],
+["引っ張る","ひっぱる","to pull, to tug","v",3],
+["振り向く","ふりむく","to turn around, to look back","v",3],
+["吠える","ほえる","to bark, to howl","v",3],
+["微笑む","ほほえむ","to smile (softly)","v",3],
+["見かける","みかける","to happen to see, to spot","v",3],
+["蒸す","むす","to steam (food)","v",3],
+["役立つ","やくだつ","to be useful","v",3],
+["譲る","ゆずる","to hand over, to give way","v",3],
+["呼び出す","よびだす","to call out, to summon","v",3],
+["分かれる","わかれる","to branch off, to be divided","v",3],
+// ===== N3 — EXPANSION 2: adjectives =====
+["新た","あらた","new, fresh (formal)","adj",3],
+["","ありがたい","grateful, welcome (thing)","adj",3],
+["偉大","いだい","great, mighty","adj",3],
+["旨い","うまい","tasty; skillful","adj",3],
+["惜しい","おしい","regrettable, so close","adj",3],
+["快適","かいてき","comfortable, pleasant","adj",3],
+["","かゆい","itchy","adj",3],
+["","かわいそう","poor, pitiable","adj",3],
+["臭い","くさい","smelly, stinking","adj",3],
+["","くだらない","worthless, trivial","adj",3],
+["険しい","けわしい","steep; grim","adj",3],
+["高価","こうか","expensive, high-priced","adj",3],
+["幸福","こうふく","happy, blissful","adj",3],
+["様々","さまざま","various, all sorts of","adj",3],
+["四角い","しかくい","square-shaped","adj",3],
+["上品","じょうひん","elegant, refined","adj",3],
+["下品","げひん","vulgar, crude","adj",3],
+["","ずるい","sly, cunning","adj",3],
+["","そっくり","exactly alike","adj",3],
+["平ら","たいら","flat, level","adj",3],
+["適切","てきせつ","appropriate, suitable","adj",3],
+["","やかましい","noisy, fussy","adj",3],
+// ===== N3 — EXPANSION 2: adverbs =====
+["","いきなり","abruptly, without warning","adv",3],
+["一旦","いったん","once, for a moment","adv",3],
+["","かえって","on the contrary, rather","adv",3],
+["","がっかり","disappointed","adv",3],
+["","きちんと","properly, neatly","adv",3],
+["先ほど","さきほど","a little while ago","adv",3],
+["少なくとも","すくなくとも","at least","adv",3],
+["","すっかり","completely, thoroughly","adv",3],
+["","すっきり","refreshed, tidy","adv",3],
+["相当","そうとう","considerably, quite","adv",3],
+["","そっと","softly, gently","adv",3],
+["大分","だいぶ","considerably, quite a lot","adv",3],
+["","たちまち","at once, in an instant","adv",3],
+["","たとえ","even if, no matter (what)","adv",3],
+["","どきどき","thumping (heart), nervous","adv",3],
+["","とうとう","finally, in the end","adv",3],
+["","とっくに","long ago, already","adv",3],
+["","にこにこ","smiling cheerfully","adv",3],
+["非常に","ひじょうに","extremely, very","adv",3],
+["","ぴったり","perfectly, exactly (fitting)","adv",3],
+["","ふと","suddenly, on impulse","adv",3],
+["","ぺらぺら","fluently","adv",3],
+["間もなく","まもなく","soon, shortly","adv",3],
+["","まるで","just like, as if","adv",3],
+// ===== N3 — EXPANSION 2: conjunctions & expressions (pos x) =====
+["","そこで","so, accordingly","x",3],
+["","それでも","even so, nevertheless","x",3],
+["","そのうえ","moreover, on top of that","x",3],
+["","なぜなら","because, the reason is","x",3],
+["お疲れ様","おつかれさま","thanks for your hard work","x",3],
 ];
 
 // ─── Audio (WebAudio arcade blips) ───
@@ -1934,6 +2303,16 @@ function shuffle(a) {
   return arr;
 }
 
+// Personal bests are stored per settings combo; localStorage may be
+// unavailable (private mode, file://) so reads/writes never throw.
+const bestKey = (style, mode, level, pos) => `speedmatch-best:${style}:${mode}:${level}:${pos}`;
+function loadBest(key) {
+  try { return Number(localStorage.getItem(key)) || 0; } catch (e) { return 0; }
+}
+function saveBest(key, score) {
+  try { localStorage.setItem(key, String(score)); } catch (e) {}
+}
+
 export default function SpeedMatch() {
   const [phase, setPhase] = useState("setup"); // setup | play | results
   const [mode, setMode] = useState("m1");
@@ -1954,6 +2333,8 @@ export default function SpeedMatch() {
   const [wordTime, setWordTime] = useState(ENDLESS_START);
   const [penaltyFlash, setPenaltyFlash] = useState(0);
   const [comboPop, setComboPop] = useState(0);
+  const [best, setBest] = useState(0);
+  const [newRecord, setNewRecord] = useState(false);
 
   const lockedRef = useRef(false);
   const recentRef = useRef([]);
@@ -1967,6 +2348,22 @@ export default function SpeedMatch() {
 
   const setupPool = useMemo(() => buildPool(level, pos, mode), [level, pos, mode]);
   const canStart = setupPool.length >= 8;
+  const setupBest = phase === "setup" ? loadBest(bestKey(style, mode, level, pos)) : 0;
+
+  useEffect(() => {
+    if (phase !== "results") return;
+    const key = bestKey(style, mode, level, pos);
+    const prev = loadBest(key);
+    if (answered > 0 && score > prev) {
+      saveBest(key, score);
+      setBest(score);
+      setNewRecord(true);
+    } else {
+      setBest(prev);
+      setNewRecord(false);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
 
   const clearTimers = useCallback(() => {
     if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
@@ -2203,7 +2600,10 @@ export default function SpeedMatch() {
     font-family:system-ui,sans-serif; }
   .res { background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:20px; margin-top:8px; }
   .res h2 { margin:0 0 4px; font-size:18px; color:var(--pink); letter-spacing:2px; text-align:center; }
-  .bigscore { text-align:center; font-size:44px; color:var(--gold); text-shadow:0 0 16px rgba(255,210,63,.5); margin:6px 0 14px; }
+  .bigscore { text-align:center; font-size:44px; color:var(--gold); text-shadow:0 0 16px rgba(255,210,63,.5); margin:6px 0 2px; }
+  .bestline { text-align:center; font-size:12px; color:var(--muted); letter-spacing:2px; min-height:16px;
+    margin:0 0 12px; font-family:system-ui,sans-serif; }
+  .bestline.record { color:var(--gold); text-shadow:0 0 10px rgba(255,210,63,.6); animation:pop .3s ease-out; }
   .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; text-align:center; margin-bottom:16px; }
   .stats div { background:var(--panel2); border-radius:10px; padding:10px 4px; }
   .stats b { display:block; font-size:20px; color:var(--cyan); }
@@ -2267,6 +2667,9 @@ export default function SpeedMatch() {
           </div>
 
           <div className="pool">Word pool for these settings: <b>{setupPool.length}</b></div>
+          {setupBest > 0 && (
+            <div className="pool" style={{ marginTop: 4 }}>Personal best: <b>{setupBest.toLocaleString()}</b></div>
+          )}
           <button className="start" disabled={!canStart} onClick={startGame}>
             {canStart ? "スタート" : "Pool too small"}
           </button>
@@ -2283,6 +2686,9 @@ export default function SpeedMatch() {
           <div className="res">
             <h2>{style === "endless" && strikes >= 3 ? "GAME OVER" : "TIME UP"}</h2>
             <div className="bigscore">{score.toLocaleString()}</div>
+            <div className={"bestline" + (newRecord ? " record" : "")}>
+              {newRecord ? "★ NEW RECORD! ★" : best > 0 ? `BEST ${best.toLocaleString()}` : ""}
+            </div>
             <div className="stats">
               <div><b>{answered}</b><span>ANSWERED</span></div>
               <div><b>{accuracy}%</b><span>ACCURACY</span></div>

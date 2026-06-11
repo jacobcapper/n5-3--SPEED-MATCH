@@ -8,7 +8,7 @@ A fast-paced Japanese vocabulary quiz game covering JLPT N5–N3. Built as a sin
 
 ## Features
 
-- **1,822 embedded words** across N5, N4, and N3 — nouns, verbs, adjectives, adverbs, phrases, question words, conjunctions, greetings, and keigo verbs
+- **2,179 embedded words** across N5, N4, and N3 — nouns, verbs, adjectives, adverbs, phrases, question words, conjunctions, greetings, keigo verbs, and katakana loanwords
 - **Three question modes**
   - 意味 → かな — meaning shown, pick the kana reading
   - 語 → 意味 — word shown, pick the meaning
@@ -20,6 +20,7 @@ A fast-paced Japanese vocabulary quiz game covering JLPT N5–N3. Built as a sin
 - **Vocabulary focus** — filter by nouns, verbs, adjectives, adverbs, or set phrases/expressions
 - **Level select** — N5, N4, N3, or all levels combined
 - **Missed words review** on the results screen with kanji, reading, and meaning
+- **Personal bests** saved in your browser per settings combination, with a NEW RECORD callout on the results screen
 - Live pool size counter on the setup screen so you know before you start
 - Arcade aesthetic: dark theme, pixel title font, WebAudio sound effects, animated combo counter
 
@@ -31,7 +32,7 @@ A fast-paced Japanese vocabulary quiz game covering JLPT N5–N3. Built as a sin
 |-------|-------|-------|
 | N5 | 515 | Essentially complete — core vocab, all days of week, directions, family terms, greetings, question words |
 | N4 | 484 | Near-complete — includes keigo (いらっしゃる・申す・参る etc.) and conjunctions |
-| N3 | 823 | High-frequency half of the list — nouns, verbs, adjectives, adverbs, set phrases |
+| N3 | 1,180 | Broad coverage — abstract/suru nouns, body & nature, transitive/intransitive verb pairs, adjectives, adverbs, conjunctions, and common katakana loanwords |
 
 Note: JLPT does not publish official vocabulary lists. Coverage is based on widely-used community word lists with a bias toward high-frequency items.
 
